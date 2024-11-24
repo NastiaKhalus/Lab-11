@@ -8,8 +8,6 @@ import lombok.Data;
 @Data
 @Builder
 public class Client {
-   
-
     private static AtomicInteger counter = new AtomicInteger();
     private final int id = counter.incrementAndGet();
   

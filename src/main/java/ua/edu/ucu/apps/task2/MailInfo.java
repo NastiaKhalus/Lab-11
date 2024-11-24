@@ -12,7 +12,4 @@ public class MailInfo {
     public String generate(){
         return mailCode.generate(client);
     }
-
-
-
 }
